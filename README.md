@@ -1,5 +1,3 @@
-Certo! Ecco tutto il contenuto formattato in **markdown** pronto per essere usato come `README.md`:
-
 ````markdown
 # Descheduler Installation and Usage on Cloud Pak for Data 5.1.3
 
