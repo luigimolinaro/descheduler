@@ -139,15 +139,18 @@ oc logs job/descheduler-job -n descheduler
 
 Before running descheduler, the resource usage across nodes was unbalanced, as shown below:
 
+
 | Node    | CPU (cores) | CPU % | Memory (Mi) | Memory % |
 | ------- | ----------- | ----- | ----------- | -------- |
-| master0 | 2200m       | 29%   | 12000Mi     | 82%      |
-| master1 | 1500m       | 20%   | 13000Mi     | 89%      |
-| master2 | 1800m       | 25%   | 11000Mi     | 75%      |
-| worker0 | 5000m       | 32%   | 21000Mi     | 45%      |
-| worker1 | 3500m       | 18%   | 24000Mi     | 50%      |
-| worker2 | 1000m       | 8%    | 5000Mi      | 12%      |
-| worker3 | 900m        | 7%    | 4000Mi      | 10%      |
+| master0  | 1286m       | 17%   | 9109         | 62%       |
+| master1  | 832m        | 11%   | 10770        | 74%       |
+| master2  | 596m        | 7%    | 7305         | 50%       |
+| worker0  | 3271m       | 21%   | 24034        | 38%       |
+| worker1  | 1380m       | 8%    | 27699        | 44%       |
+| worker2  | 1248m       | 8%    | 20202        | 31%       |
+| worker3  | 1819m       | 11%   | 25747        | 41%       |
+| worker4  | 632m        | 4%    | 13246        | 21%       |
+| worker5  | 103m        | 0%    | 1667         | 2%        |
 
 ---
 
