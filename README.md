@@ -52,7 +52,7 @@ helm repo add descheduler https://kubernetes-sigs.github.io/descheduler/
 helm repo update
 ```
 
-Create a `values.yaml` file to customize the descheduler configuration if needed. For example:
+Create a `values.yaml` file to customize the descheduler configuration if needed. (Or just wait 2 minute to let job run) For example:
 
 ```yaml
 apiVersion: descheduler/v1alpha1
